@@ -23,9 +23,23 @@ Far-se-á necessário deixar mais do que claro: A definição do que é uma ling
 3. **Rápido** (Isto é, que seja otimizada - ou que permita -  acesso ao ["Baixo Nível"](https://minutodaseguranca.blog.br/importancia-da-linguem-de-programacao-de-baixo-nivel/) onde o programador, caso queira, possa fazer controle da inversão de um Byte na memória para otimizar um ganho de "tempo" em um ciclo da CPU).&#x20;
 4. **Previsível e Estável** (Onde haja, sob ambiente ideal, em uma [máquina de turing](https://pt.wikipedia.org/wiki/M%C3%A1quina\_de\_Turing) a execução de um mesmo código infinitas vezes de maneira que o resultado dele seja completamente predito - _Rust_ também implementa de maneira nativa o conceito de Programação funcional & testes automatizados para cumprir estes propósitos ante citados).
 
+Agora que você leu o conceito, faça à si mesmo a seguinte pergunta:&#x20;
+
+> "Por qual motivo, razão, circunstância meu Aplicativo, Site ou API não pode ser tudo isso?"
+>
+> * Alguma personalidade do autor enquanto escrevia, 1 de dezembro, 18:12:42.
+
+Então, para melhor decorrer sobre essa ideia, vamos supor que você está implementando um: Aplicativo Web para controlar o fluxo de caixa no Bar do Fulano.&#x20;
+
+#### Um Lado da moeda.&#x20;
+
+Se você adotar: _**Java**_, _**TypeScript**_ ou _**C#**_ para a implementação do software, tentando cumprir cada um dos itens acima você **obrigatoriamente não cumpre o segundo**. Todas estas linguagens, em si, possuem **um coletor de lixo** que roda em paralelo pegando "pedaços" da memória que já caíram em desuso pelo processo vigente, isto é: "A Thread".&#x20;
+
+_Permita-se ser introduzido a isto sobre isso no_ [_<mark style="color:blue;">**Podcast**</mark>_](https://hipsters.tech/rust-hipsters-ponto-tech-276/) _**Hipsters.Tech** onde falam sobre **Rust.** E porque linguagens como Go apesar de Cumprirem o papel de seguras não são energéticamente eficientes/seguras-no-paralelismo._&#x20;
+
+#### Outro Lado da moeda.
 
 
 
-
-
+#### A moeda de Schrödringer...
 

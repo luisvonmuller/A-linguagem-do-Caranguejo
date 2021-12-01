@@ -8,9 +8,19 @@ Este livro vem de um desejo. Um desejo de acessibilidade, simplificação e incl
 
 ### Uma linguagem empoderando todos a construir softwares confiáveis e eficientes.&#x20;
 
-Se você pegou algum livro de terceiros de Rust, provavelmente encontrou a ideia dela de que o propósito dela é ser (de maneira quase que exclusiva): **uma linguagem para Programação de Sistemas** (operacionais). Sim & Não.
+Se você pegou algum livro de terceiros da [Linguagem de Programação Rust](https://www.rust-lang.org/pt-BR), provavelmente encontrou a ideia dela de que o propósito dela é ser (de maneira quase que exclusiva proposta por vários outros autores): **uma linguagem para Programação de Sistemas**. O conjunto de itens que entrariam na definição de um **Sistema** são:
 
-Far-se-á necessário deixar mais do que claro, a definição do que é programação de sistemas é relativo à algum tipo de software que roda sobre as seguintes restrições:&#x20;
+* **Sistemas Operacionais** (Windows, Linux, BSD, MacOs, Android, iOS, etc).
+* **Drivers** para dispositivos (Impressoras, teclados, mouses, etc).
+* **Bancos de Dados** (MySQL, PostgreSQL, MongoDB, Redis, etc).
+* **Criptografia e Redes** (blockchains, protocolos de rede - de diversos tipos, até mesmo o modelo OSI ou algo análogo ao Bluetooth - etc).
+* Jogos (Visto que precisam de extrema Eficiência porque trabalham com muit
+
+
+
+&#x20;
+
+Far-se-á necessário deixar mais do que claro, a definição do que é uma linguagem para a  Programação de Sistemas. é relativo à algum tipo de software que roda sobre as seguintes restrições:&#x20;
 
 1. Seja Seguro (Onde não haja: [condições de corrida](https://pt.wikipedia.org/wiki/Condi%C3%A7%C3%A3o\_de\_corrida), [vazamentos de memória](https://pt.wikipedia.org/wiki/Vazamento\_de\_mem%C3%B3ria), [etc](https://pt.wikipedia.org/wiki/Rust\_\(linguagem\_de\_programa%C3%A7%C3%A3o\))).
 2. Energeticamente Eficiente (Onde não haja desperdício energético por outros como por exemplo, um coletor de lixo que roda paralelamente).

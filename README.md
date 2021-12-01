@@ -8,13 +8,16 @@ Este livro vem de um desejo. Um desejo de acessibilidade, simplificação e incl
 
 ### Uma linguagem empoderando todos a construir softwares confiáveis e eficientes.&#x20;
 
-Se você pegou algum livro de terceiros de Rust, provavelmente trombou que a ideia dela é ser (de maneira quase que exclusiva) uma linguagem para Programação de Sistemas (operacionais).
-
-Sim e não.  &#x20;
+Se você pegou algum livro de terceiros de Rust, provavelmente encontrou a ideia dela de que o propósito dela é ser (de maneira quase que exclusiva): **uma linguagem para Programação de Sistemas** (operacionais). Sim & Não.
 
 Far-se-á necessário deixar mais do que claro, a definição do que é programação de sistemas é relativo à algum tipo de software que roda sobre as seguintes restrições:&#x20;
 
-* Seja Seguro (Sem condições de corrida, vazamentos de memória, etc)&#x20;
+1. Seja Seguro (Onde não haja: [condições de corrida](https://pt.wikipedia.org/wiki/Condi%C3%A7%C3%A3o\_de\_corrida), [vazamentos de memória](https://pt.wikipedia.org/wiki/Vazamento\_de\_mem%C3%B3ria), [etc](https://pt.wikipedia.org/wiki/Rust\_\(linguagem\_de\_programa%C3%A7%C3%A3o\))).
+2. Energeticamente Eficiente (Onde não haja desperdício energético por outros como por exemplo, um coletor de lixo que roda paralelamente).
+3. Rápido (Isto é, que seja otimizada - ou que permita -  acesso ao ["Baixo Nível"](https://minutodaseguranca.blog.br/importancia-da-linguem-de-programacao-de-baixo-nivel/) onde o programador, caso queira, possa fazer controle da inversão de um Byte na memória para otimizar um ganho de "tempo" em um ciclo da CPU).&#x20;
+4. Previsível e Estável (Onde haja, sob ambiente ideal, em uma [máquina de turing](https://pt.wikipedia.org/wiki/M%C3%A1quina\_de\_Turing) a execução de um mesmo código infinitas vezes de maneira que o resultado dele seja completamente predito - rust também implementa de maneira nativa o conceito de Programação funcional & testes automatizados para cumprir estes propósitos ante-citados).
+
+
 
 
 

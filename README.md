@@ -29,17 +29,23 @@ Agora que você leu o conceito, faça à si mesmo a seguinte pergunta:&#x20;
 >
 > * Alguma personalidade do autor enquanto escrevia, 1 de dezembro, 18:12:42.
 
-Então, para melhor decorrer sobre essa ideia, vamos supor que você está implementando um: Aplicativo Web para controlar o fluxo de caixa no Bar do Fulano.&#x20;
+Então, para melhor decorrer sobre essa ideia, vamos supor que você está implementando um: **Aplicativo Web para controlar o fluxo de caixa no Bar do Fulano.**&#x20;
 
 #### Um Lado da moeda.&#x20;
 
-Se você adotar: _**Java**_, _**TypeScript**_ ou _**C#**_ para a implementação do software, tentando cumprir cada um dos itens acima você **obrigatoriamente não cumpre o segundo**. Todas estas linguagens, em si, possuem **um coletor de lixo** que roda em paralelo pegando "pedaços" da memória que já caíram em desuso pelo processo vigente, isto é: "A Thread".&#x20;
+Se você adotar: _**Java**_, _**TypeScript**_ ou _**C#**_ para a implementação do software, tentando cumprir cada um dos itens acima você **obrigatoriamente não cumpre o segundo**. Todas essas linguagens, em si, possuem **um coletor de lixo** que roda em paralelo coletando "pedaços" da memória que já caíram em desuso pelo processo vigente, isto é: "A Thread".&#x20;
 
-_Permita-se ser introduzido a isto sobre isso no_ [_<mark style="color:blue;">**Podcast**</mark>_](https://hipsters.tech/rust-hipsters-ponto-tech-276/) _**Hipsters.Tech** onde falam sobre **Rust.** E porque linguagens como Go apesar de Cumprirem o papel de seguras não são energéticamente eficientes/seguras-no-paralelismo._&#x20;
+_Permita-se ser introduzido a isto sobre isso no_ [_<mark style="color:blue;">**Podcast**</mark>_](https://hipsters.tech/rust-hipsters-ponto-tech-276/) _**Hipsters.Tech** onde falam sobre **Rust.** E porque linguagens como Go apesar de Cumprirem o papel de serem seguras no paralelismo não são energeticamente eficientes/performáticas._&#x20;
 
 #### Outro Lado da moeda.
 
+Noutro lado da moeda, temos Linguagens como: **C, C++, Assembly**. Elas também não cumprem "sozinhas" o requisito número um (a menos que você seja o Ronaldo na copa de 2002, ou seja, bata um bolão nela). Elas não são totalmente seguras no paralelismo (isto é, depende intrinsecamente da sua capacidade de implementação e nada disso é garantido pela linguagem em si nativamente).
 
+Ainda neste lado da moeda esta: Elas são extremamente complexas. Ou seja, se você quiser fazer algo grandes com elas, você precisa de bons fundamentos teórico computacionais para que implemente de maneira efetiva os requisitos supracitados.&#x20;
 
-#### A moeda de Schrödringer...
+Nessa complexidade agregada, há um custo, sua **produtividade obrigatoriamente cai**. &#x20;
+
+#### A moeda de Schrödinger...
+
+Rust é a moeda de Schrödinger, cabo.&#x20;
 
